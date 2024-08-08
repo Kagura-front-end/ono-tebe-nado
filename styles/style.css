@@ -76,7 +76,6 @@ text-align: center;
     top: 165px; 
     left: 50px;
     right: 50px; 
-   /* border: 2px solid #fff; */
     z-index: 0;
 }
 
@@ -107,8 +106,6 @@ text-align: center;
     font-family: 'Raleway', sans-serif;
     color: white;
     padding-top: 650px;
-
-    
     
 }
 
