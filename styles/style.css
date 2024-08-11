@@ -374,7 +374,7 @@ section {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     line-height: 24px;
-    text-align:left;
+    text-align: left;
 }
 
 .auction_p1 {
@@ -392,7 +392,7 @@ section {
     left: 0;
     font-size: 20px;
 }
- 
+
 .spacing_negative_2 { 
     letter-spacing: 0.8em; 
 } 
