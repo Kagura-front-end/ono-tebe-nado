@@ -78,6 +78,23 @@ header address .address {
     font-size: 20px;
 }
 
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+}
+
 .jumbotron {
     position: absolute;
     top: 293px;
@@ -403,10 +420,6 @@ header address .address {
     letter-spacing: 0.04em; 
 } 
  
-footer {
-    margin-bottom: 88px;
-}
- 
 .vertical_list { 
     font-family: 'Raleway', sans-serif; 
     font-weight: 400; 
@@ -459,4 +472,13 @@ footer {
     max-width: 100%; 
     max-height: 100%; 
     height: auto; 
+}
+
+.empty_space {
+    position: absolute;
+    left: 0;
+    top: 2892px;
+    min-width: 100%;
+    min-height: 88px;
+    background-color: #fff;
 }
