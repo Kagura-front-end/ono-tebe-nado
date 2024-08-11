@@ -386,9 +386,9 @@ section {
 }
 
 .auction_p2 {
-    margin: 0; 
-    position: absolute; 
-    top: 421px; 
+    margin: 0;
+    position: absolute;
+    top: 421px;
     left: 0;
     font-size: 20px;
 }
@@ -439,7 +439,7 @@ section {
     left: 50px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 18px; 
+    font-size: 18px;
     line-height: 24px;
 } 
  
@@ -451,21 +451,21 @@ section {
 .footer_block_two {
     padding-top: 0%;
     width: 151px;
-    height: 64px; 
+    height: 64px;
     position: absolute;
-    top: 2844px; 
+    top: 2844px;
     left: 476px;
 } 
  
 .footer_block_three {
     width: 240px;
     height: 48px;
-    position: absolute; 
+    position: absolute;
     top: 2844px;
     left: 810px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     overflow: hidden;
 } 
  
