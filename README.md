@@ -1,3 +1,5 @@
+HTTPS: https://github.com/Kagura-front-end/ono-tebe-nado.git
+SSH: git@github.com:Kagura-front-end/ono-tebe-nado.git
 - 👋 Hi, I’m @Kagura-front-end
 - 👀 I’m interested in music, design, travelling
 - 🌱 I’m currently learning about frontend development and I'm also learning Japanese as well 
