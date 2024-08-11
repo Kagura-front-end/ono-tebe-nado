@@ -12,48 +12,6 @@ header {
     height: 105px;
 }
 
-.menu {
-    position: absolute;
-    top: 40px;
-    left: 27px;
-    height: 22px;
-}
-
-.horizontal_list {
-    display: flex;
-    gap: 32px;
-    padding-top: 4px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    list-style: none;
-    text-decoration: none;
-}
-
-.li_decoration {
-    letter-spacing: 0.01em;
-    list-style-type: circle;
-    text-decoration: none;
-}
-
-.li_decoration a {
-    text-decoration: none;
-    border-bottom: 2px solid black;
-}
-
-.horizontal_list li::marker {
-    font-size: 20px;
-}
-
-.logo_black {
-    position: absolute;
-    top: 0;
-    left: 458px;
-    width: 136px;
-    height: 108px;
-}
-
 header address {
     position: absolute;
     top: 5px;
@@ -78,21 +36,46 @@ header address .address {
     width: 237px;
 }
 
-.overlay {
-    position: relative;
+.logo_black {
+    position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.6);
+    left: 458px;
+    width: 136px;
+    height: 108px;
 }
 
-section {
+.menu {
+    position: absolute;
+    top: 40px;
+    left: 27px;
+    height: 22px;
+}
+
+.horizontal_list {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1100px;
+    gap: 32px;
+    padding-top: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.li_decoration {
+    letter-spacing: 0.01em;
+    list-style-type: circle;
+    text-decoration: none;
+}
+
+.li_decoration a {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+.horizontal_list li::marker {
+    font-size: 20px;
 }
 
 .jumbotron {
@@ -154,7 +137,7 @@ section {
 
 .subline {
     position: absolute;
-    top: 667px;
+    top: 668px;
     left: 78px;
     display: block;
     width: 644px;
@@ -210,7 +193,7 @@ section {
 
 .lots_section h2 {
     position: absolute;
-    top: 0;
+    top: 2px;
     left: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
@@ -337,8 +320,8 @@ section {
 
 .black_circle {
     position: absolute;
-    top: 26px;
-    left: 47px;
+    top: 33px;
+    left: 50px;
     width: 240px;
     height: 240px;
     background-color: black;
@@ -361,8 +344,119 @@ section {
 
 .column_2 h4 {
     position: absolute;
-    top: 130px;
+    top: 135px;
     left: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.auction_p1, .auction_p2 { 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400; 
+    line-height: 24px; 
+    text-align: left; 
+} 
+ 
+.auction_p1 { 
+    margin: 0; 
+    font-size: 20px; 
+    position: absolute; 
+    top: 280px; 
+    left: 0; 
+} 
+ 
+.auction_p2 { 
+    margin: 0;  
+    position: absolute;  
+    top: 425px;  
+    left: 0; 
+    font-size: 20px; 
+} 
+ 
+.spacing_negative_2 { 
+    letter-spacing: 0.8em; 
+} 
+ 
+.spacing_negative { 
+    letter-spacing: -0.01em; 
+} 
+ 
+.spacing_none { 
+    letter-spacing: 0px; 
+} 
+ 
+.spacing_one_percent { 
+    letter-spacing: 0.01em; 
+} 
+ 
+.spacing_two_percent { 
+    letter-spacing: 0.02em; 
+} 
+ 
+.spacing_three_percent { 
+    letter-spacing: 0.03em; 
+} 
+ 
+.spacing_four_percent { 
+    letter-spacing: 0.04em; 
+} 
+ 
+footer {
+    margin-bottom: 88px;
+}
+ 
+.vertical_list { 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 21px; 
+    text-align: center; 
+    text-decoration: none; 
+    list-style-type: none; 
+} 
+ 
+.footer_block_one { 
+    width: 241px; 
+    height: 98px; 
+    position: absolute; 
+    top: 2842px; 
+    left: 50px; 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 24px; 
+} 
+ 
+.address_style { 
+    letter-spacing: 0.01em; 
+    font-style: normal; 
+} 
+
+.footer_block_two { 
+    padding-top: 0%; 
+    width: 151px; 
+    height: 64px; 
+    position: absolute; 
+    top: 2844px; 
+    left: 476px; 
+} 
+ 
+.footer_block_three { 
+    width: 240px; 
+    height: 48px; 
+    position: absolute; 
+    top: 2844px; 
+    left: 810px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    overflow: hidden; 
+} 
+ 
+.footer_block_three img { 
+    max-width: 100%; 
+    max-height: 100%; 
+    height: auto; 
+}
