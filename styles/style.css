@@ -394,85 +394,85 @@ section {
 }
 
 .spacing_negative_2 { 
-    letter-spacing: 0.8em; 
+    letter-spacing: 0.8em;
 } 
  
 .spacing_negative { 
-    letter-spacing: -0.01em; 
+    letter-spacing: -0.01em;
 } 
  
 .spacing_none { 
-    letter-spacing: 0px; 
+    letter-spacing: 0px;
 } 
 
 .spacing_one_percent { 
-    letter-spacing: 0.01em; 
+    letter-spacing: 0.01em;
 } 
 
 .spacing_two_percent { 
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
 } 
 
 .spacing_three_percent { 
-    letter-spacing: 0.03em; 
+    letter-spacing: 0.03em;
 } 
  
 .spacing_four_percent { 
-    letter-spacing: 0.04em; 
+    letter-spacing: 0.04em;
 } 
  
 .vertical_list { 
-    font-family: 'Raleway', sans-serif; 
-    font-weight: 400; 
-    font-size: 18px; 
-    line-height: 21px; 
-    text-align: center; 
-    text-decoration: none; 
-    list-style-type: none; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
 } 
  
 .footer_block_one { 
-    width: 241px; 
-    height: 98px; 
-    position: absolute; 
-    top: 2842px; 
-    left: 50px; 
-    font-family: 'Raleway', sans-serif; 
-    font-weight: 400; 
+    width: 241px;
+    height: 98px;
+    position: absolute;
+    top: 2842px;
+    left: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 18px; 
-    line-height: 24px; 
+    line-height: 24px;
 } 
  
 .address_style { 
-    letter-spacing: 0.01em; 
-    font-style: normal; 
+    letter-spacing: 0.01em;
+    font-style: normal;
 } 
 
 .footer_block_two { 
-    padding-top: 0%; 
-    width: 151px; 
+    padding-top: 0%;
+    width: 151px;
     height: 64px; 
-    position: absolute; 
+    position: absolute;
     top: 2844px; 
-    left: 476px; 
+    left: 476px;
 } 
  
 .footer_block_three { 
-    width: 240px; 
-    height: 48px; 
+    width: 240px;
+    height: 48px;
     position: absolute; 
-    top: 2844px; 
-    left: 810px; 
-    display: flex; 
-    justify-content: space-between; 
+    top: 2844px;
+    left: 810px;
+    display: flex;
+    justify-content: space-between;
     align-items: center; 
-    overflow: hidden; 
+    overflow: hidden;
 } 
  
 .footer_block_three img { 
-    max-width: 100%; 
-    max-height: 100%; 
-    height: auto; 
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
 }
 
 .empty_space {
