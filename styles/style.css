@@ -77,13 +77,18 @@ main {
     padding-top: 92px;
 }
 
+.jumbotron, 
+.lot_card {
+    box-shadow: 0 1px #00000040,inset 0 0 0 1000px rgba(0,0,0,0.6);
+}
+
 .jumbotron {
     min-height: 757px;
     width: 100%;
     background-position: center;
     background-size: 1100px 757px;
     background-image: url('../images/cover.jpg');
-    box-shadow: 0 4px 4px 0 #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+   /* box-shadow: 0 4px 4px 0 #00000040,inset 0 0 0 1000px rgba(0,0,0,0.6); */
     text-align: left;
     color: #ffffff;
     text-transform: uppercase;
@@ -173,7 +178,9 @@ h1 i {
 
 #lots {
     width: 1052px;
-    margin: 0 auto 146px auto;
+    margin: 0 auto;
+    padding-top: 179px;
+    padding-bottom: 115px;
     background-color: blueviolet;
 }
 
@@ -209,17 +216,6 @@ h1 i {
     align-items: center;
 }
 
-.lot_card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-}
-
 .lot_card h3 {
     position: relative;
     margin-top: 32px;
@@ -232,7 +228,6 @@ h1 i {
     text-align: left;
     text-decoration: underline;
     align-self: center;
-    z-index: 3;
 }
 
 
@@ -244,7 +239,6 @@ h1 i {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    z-index: 2;
     width: 254px;
 }
 
@@ -288,13 +282,9 @@ h1 i {
 
 #auction {
     width: 1052px;
-    margin: 0 auto 184px auto;
+    margin: 0 auto;
     background-color: chartreuse;
     display: flex;
-}
-
-.column {
-    box-sizing: border-box;
 }
 
 .column_logo {
@@ -311,7 +301,7 @@ h1 i {
     margin-top: 35px;
 }
 
-.logo_auction {
+.circle img {
     height: 114px;
     width: 146px;
     margin-left: 47px;
@@ -323,7 +313,7 @@ h1 i {
     background-color: aqua;
 }
 
-.auction_heading {
+#auction h4 {
     text-transform: uppercase;
     text-align: left;
     font-family: 'Raleway', sans-serif;
@@ -362,7 +352,7 @@ h1 i {
     letter-spacing: 0.04em;
 }
 
-.p_auction {
+#auction p {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -371,55 +361,56 @@ h1 i {
     text-align: left;
 }
 
+#auction p + p {
+margin-top: 24px;
+}
+
 footer {
     width: 1000px;
-    margin: 0 auto 88px auto;
+    margin: 0 auto;
+    padding-top: 185px;
+    padding-bottom: 88px;
     background-color: chocolate;
     display: flex;
 }
 
-.column-footer {
-    flex: 1;
-    box-sizing: border-box;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    justify-items: center;
-    align-items: start;
+footer address, 
+footer nav, 
+footer div {
+flex: 1;
+justify-items: center;
+align-items: start;
 }
 
-.footer-icon {
+footer ul {
+font-style: normal;
+font-size: 18px;
+font-weight: 400;
+list-style-type: none;
+}
+
+footer address li a {
+letter-spacing: 0.01em;
+line-height: 24.3px;
+}
+
+footer nav {
+line-height: 21px;
+text-align: center;
+
+}
+
+footer div img {
     width: 48px;
     height: 48px;
 }
 
-.address-footer {
-    font-style: normal;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.3px;
+footer address {
     text-align: left;
 }
 
-.nav-footer {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    text-transform: none;
-}
-
-.icons-footer {
+footer div {
     justify-content: flex-end;
     display: flex;
     gap: 48px;
-}
-
-.nav-footer li {
-    list-style-type: none;
-}
-
-.nav-footer a.no-underline {
-    text-decoration: none;
 }
