@@ -101,7 +101,6 @@ h1 {
     margin: auto;
     width: 1000px;
     padding-top: 165px;
-    /*padding-right: 30px;*/
     min-height: 355px;
     font-size: 100px;
     font-weight: 700;
@@ -128,7 +127,7 @@ h1 em {
 
 h1 i {
     font-style: normal;
-    letter-spacing: unset;
+    letter-spacing: initial;
 }
 
 .jumbotron p {
