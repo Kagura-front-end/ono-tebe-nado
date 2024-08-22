@@ -1,72 +1,76 @@
-.header_container {
-    width: 1052px;
-    background-color: aqua;
-    margin: 90px auto 98px auto;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+body {
+    width: 1100px;
+    margin: 0 auto;
+    font-family: Raleway, sans-serif;
 }
 
-.logo-container {
+header {
+    /*width: 1052px;*/
+    padding-top: 92px;
     display: flex;
-    width: 20%;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    height: 100%;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: stretch;
 }
-.header_logo {
+
+header nav {
+    padding-top: 44px;
+    padding-left: 25px;
+}
+
+header nav ul {
+    padding-left: 25px;
+    gap: 32px;
+    line-height: 21px;
     display: flex;
+    list-style-type: circle;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    border-bottom: black 1px solid;
+}
+
+.no-underline {
+    text-decoration: none;
+    border: 0;
+}
+
+.main-link {
+    list-style: none;
+}
+
+.spacing-0 {
+    letter-spacing: 0;
+}
+
+.spacing-1 {
+    letter-spacing: 0.01em;
+}
+
+header .logo {
+    padding-left: 36px;
+}
+
+header img {
     width: 148px;
     height: 105px;
 }
-    
-.header_nav {
-    display: flex;
-    font-family: 'Raleway', sans-serif; 
-    font-size: 18px; 
-    font-weight: 400; 
-    line-height: 21px; 
-    width: 40%;
-    box-sizing: border-box;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    padding-left: 25px;
-    }
 
-.header_nav a.no-underline {
-    text-decoration: none;
+header address ul {
     list-style-type: none;
+    padding-left: 185px;
+    padding-top: 6px;
+    line-height: 24px;
 }
 
-.header_nav ul {
-    display: flex;
-    gap: 35px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: end;
+header address ul li a {
+    text-decoration: none;
+    border-bottom: black 1px solid;
 }
 
-.li_decoration {
-    list-style-type: circle;
-    size: 14px;
-}
-.address_header {
-    width: 40%;
-    box-sizing: border-box;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    text-align: left;
-    font-style: normal;
-    padding-left: 154px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.3px;
-}
 
 .cover {
     width: 100%;
@@ -75,13 +79,13 @@
 
 .image {
     height: 757px;
-    width: 100%; 
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-image: url(../images/cover.jpg);
 }
 
-.image_overlay {
+.overlay {
     height: 757px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -97,10 +101,10 @@
 }
 
 button {
-    margin-top:20px; 
+    margin-top: 20px;
 }
 
-.lots {
+#lots {
     width: 1052px;
     margin: 0 auto 146px auto;
     background-color: blueviolet;
@@ -111,7 +115,7 @@ button {
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
-    text-align: left;    
+    text-align: left;
     margin-left: 40px;
     margin-bottom: 27px;
     text-transform: uppercase;
@@ -126,8 +130,8 @@ button {
 .lot_card {
     position: relative;
     width: 31.6%;
-    background-color: #fff; 
-    padding: 20px; 
+    background-color: #fff;
+    padding: 20px;
     box-sizing: border-box;
     overflow: hidden;
     min-height: 563px;
@@ -160,7 +164,6 @@ button {
     text-transform: uppercase;
     text-align: left;
     text-decoration: underline;
-    text-align: left;
     align-self: center;
     z-index: 3;
 }
@@ -175,7 +178,6 @@ button {
     line-height: 24px;
     text-align: left;
     z-index: 2;
-    text-align: left;
     width: 254px;
 }
 
@@ -183,6 +185,7 @@ button {
     font-size: 15px;
     letter-spacing: 0.1em;
 }
+
 .three_dots {
     letter-spacing: 0.1em;
 }
@@ -216,7 +219,7 @@ button {
     text-align: left;
 }
 
-.auction {
+#auction {
     width: 1052px;
     margin: 0 auto 184px auto;
     background-color: chartreuse;
@@ -242,10 +245,10 @@ button {
 }
 
 .logo_auction {
-height: 114px;
-width: 146px;
-margin-left: 47px;
-margin-top: 65px;
+    height: 114px;
+    width: 146px;
+    margin-left: 47px;
+    margin-top: 65px;
 }
 
 .column_text {
@@ -254,51 +257,51 @@ margin-top: 65px;
 }
 
 .auction_heading {
-text-transform: uppercase;
-text-align: left;
-font-family: 'Raleway', sans-serif;
-font-size: 40px;
-font-weight: 700;
-line-height: 47px;
-margin-top: 135px;
-margin-bottom: 100px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-top: 135px;
+    margin-bottom: 100px;
 }
 
 .spacing_negative_2 {
     letter-spacing: 0.8em;
-} 
- 
+}
+
 .spacing_negative {
     letter-spacing: -0.01em;
-} 
- 
+}
+
 .spacing_none {
-    letter-spacing: 0px;
-} 
+    letter-spacing: 0;
+}
 
 .spacing_one_percent {
     letter-spacing: 0.01em;
-} 
+}
 
 .spacing_two_percent {
     letter-spacing: 0.02em;
-} 
+}
 
 .spacing_three_percent {
     letter-spacing: 0.03em;
-} 
- 
+}
+
 .spacing_four_percent {
     letter-spacing: 0.04em;
-} 
+}
 
 .p_auction {
-font-family: 'Raleway', sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.01em;
-text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
 }
 
 footer {
@@ -311,7 +314,7 @@ footer {
 .column-footer {
     flex: 1;
     box-sizing: border-box;
-    border-left: 1px solid black; 
+    border-left: 1px solid black;
     border-right: 1px solid black;
     justify-items: center;
     align-items: start;
@@ -323,22 +326,21 @@ footer {
 }
 
 .address-footer {
-font-style: normal;
-font-family: 'Raleway', sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 24.3px;
-text-align: left;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
 }
 
 .nav-footer {
-text-align: center;
-font-family: 'Raleway', sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 21.13px;
-text-align: center;
-text-transform: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: none;
 }
 
 .icons-footer {
