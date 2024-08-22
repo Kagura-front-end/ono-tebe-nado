@@ -84,7 +84,7 @@ main {
     background-position: center;
     background-size: cover;
     background-image: url('../images/cover.jpg');
-    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.5);
     text-align: left;
     color: #ffffff;
     text-transform: uppercase;
@@ -131,11 +131,11 @@ h1 i {
 }
 
 .jumbotron p {
-    height: 28px;
+    min-height: 28px;
     font-weight: 400;
     font-size: 22px;
     line-height: 40px;
-    padding-top: 230px;
+    padding-top: 141px;
     padding-left: 78px;
     display: block;
     text-transform: uppercase;
