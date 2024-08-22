@@ -25,3 +25,6 @@ a {
   color: inherit;
 }
 
+address {
+  font-style: normal;
+}

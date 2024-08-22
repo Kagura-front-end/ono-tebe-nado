@@ -5,14 +5,14 @@ body {
 }
 
 header {
-    width: 1052px;
+    /*width: 1052px;*/
     padding-top: 92px;
     display: flex;
     flex-wrap: nowrap;
     font-size: 18px;
     font-weight: 400;
+    align-items: stretch;
 }
-
 
 header nav {
     padding-top: 44px;
@@ -56,28 +56,13 @@ header img {
     height: 105px;
 }
 
-header address {
-    width: 240px;
-}
-
 header address ul {
     list-style-type: none;
+    padding-left: 185px;
+    padding-top: 7px;
+    line-height: 24px;
 }
 
-
-.address_header {
-    width: 40%;
-    box-sizing: border-box;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    text-align: left;
-    font-style: normal;
-    padding-left: 154px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.3px;
-}
 
 .cover {
     width: 100%;
@@ -171,7 +156,6 @@ button {
     text-transform: uppercase;
     text-align: left;
     text-decoration: underline;
-    text-align: left;
     align-self: center;
     z-index: 3;
 }
@@ -186,7 +170,6 @@ button {
     line-height: 24px;
     text-align: left;
     z-index: 2;
-    text-align: left;
     width: 254px;
 }
 
@@ -285,7 +268,7 @@ button {
 }
 
 .spacing_none {
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 .spacing_one_percent {
@@ -349,7 +332,6 @@ footer {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
-    text-align: center;
     text-transform: none;
 }
 
