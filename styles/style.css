@@ -89,13 +89,8 @@ main {
     color: #ffffff;
     text-transform: uppercase;
 }
-/*
-.overlay {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
 
-}*/
+
 
 h1 {
     margin: auto;
@@ -177,17 +172,12 @@ h1 i {
     letter-spacing: 0.08em;
 }
 
-.jumbotron p {
-
-}
 
 .p_auction {
     margin-top: 20px;
 }
 
-button {
-    margin-top: 20px;
-}
+
 
 #lots {
     width: 1052px;
