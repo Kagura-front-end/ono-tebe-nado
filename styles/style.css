@@ -185,13 +185,11 @@ h1 i {
     margin-top: 20px;
 }
 
-button {
-    margin-top: 20px;
-}
-
 #lots {
     width: 1052px;
-    margin: 0 auto 146px auto;
+    margin: 0 auto;
+    padding-top: 179px;
+    padding-bottom: 115px;
     background-color: blueviolet;
 }
 
