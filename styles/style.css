@@ -171,7 +171,6 @@ h1 i {
     line-height: 26px;
     text-transform: uppercase;
     float: right;
-
 }
 
 .whitespace-9 {
@@ -184,10 +183,6 @@ h1 i {
 
 .jumbotron p {
 
-}
-
-.p_auction {
-    margin-top: 20px;
 }
 
 #lots {
@@ -316,10 +311,6 @@ h1 i {
     display: flex;
 }
 
-.column {
-    box-sizing: border-box;
-}
-
 .column_logo {
     width: 34%;
     border-color: black;
@@ -334,7 +325,7 @@ h1 i {
     margin-top: 35px;
 }
 
-.logo_auction {
+.circle img {
     height: 114px;
     width: 146px;
     margin-left: 47px;
@@ -346,7 +337,7 @@ h1 i {
     background-color: aqua;
 }
 
-.auction_heading {
+#auction h4 {
     text-transform: uppercase;
     text-align: left;
     font-family: 'Raleway', sans-serif;
@@ -385,13 +376,17 @@ h1 i {
     letter-spacing: 0.04em;
 }
 
-.p_auction {
+#auction p {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.01em;
     text-align: left;
+}
+
+#auction p + p {
+margin-top: 24px;
 }
 
 footer {
