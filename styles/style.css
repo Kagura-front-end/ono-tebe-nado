@@ -5,7 +5,6 @@ body {
 }
 
 header {
-    /*width: 1052px;*/
     padding-top: 92px;
     display: flex;
     flex-wrap: nowrap;
@@ -66,34 +65,121 @@ header address ul {
     line-height: 24px;
 }
 
+header address ul li {
+    letter-spacing: 0.01em;
+}
+
 header address ul li a {
     text-decoration: none;
     border-bottom: black 1px solid;
 }
 
-
-.cover {
-    width: 100%;
-    margin: 0 auto 184px auto;
+main {
+    padding-top: 92px;
 }
 
-.image {
-    height: 757px;
+.jumbotron {
+    min-height: 757px;
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/cover.jpg);
+    background-image: url('../images/cover.jpg');
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 .overlay {
-    height: 757px;
+    height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    letter-spacing: 0.5em;
+
+}
+
+h1 {
+    margin: auto;
+    width: 1000px;
+    padding-top: 165px;
+    /*padding-right: 30px;*/
+    min-height: 355px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+    text-align: left;
+}
+
+h1 span {
+    display: block;
+    padding-top: 20px;
+    padding-left: 286px;
+    line-height: 100px;
+}
+
+h1 em {
+    font-style: normal;
+    letter-spacing: 0.6em;
+}
+
+.jumbotron h1 span span {
+    text-align: right;
+}
+
+h1 i {
+    font-style: normal;
+    letter-spacing: unset;
+}
+
+.jumbotron p {
+    height: 28px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    padding-top: 230px;
+    padding-left: 78px;
+    display: block;
+    text-transform: uppercase;
+    min-width: 1000px;
+    padding-right: 50px;
+}
+
+.jumbotron p .accent-v {
+    letter-spacing: 1.1em;
+}
+
+.jumbotron p .whitespace-9 {
+    letter-spacing: 0.9em;
+}
+
+.jumbotron p .whitespace-8 {
+    letter-spacing: 0.8em;
+}
+
+.jumbotron button {
+    width: 256px;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    float: right;
+
+}
+
+.whitespace-9 {
+    letter-spacing: 0.09em;
+}
+
+.whitespace-8 {
+    letter-spacing: 0.08em;
+}
+
+.jumbotron p {
+
 }
 
 .p_auction {
