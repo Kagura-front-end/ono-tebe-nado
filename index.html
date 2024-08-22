@@ -24,35 +24,19 @@
         <ul>
             <li><a href="tel:+99995555555" title="Позвонить">+9 999 555 5555</a></li>
             <li><a href="mailto:info@sobaka.ge" title="Написать">info@sobaka.ge</a></li>
-            <li class="spacing-0">наб. Принсенграхт 263-<br/>265, Амстердам</li>
+            <li class="spacing-none">наб. Принсенграхт 263-<br/>265, Амстердам</li>
         </ul>
     </address>
 </header>
 <main>
     <section class="jumbotron">
-        <!--<div class="overlay"></div>-->
-        <!-- не знаю нужной техники, как через отдельный класс сделать линзу так, чтобы z-index не мешал выделять текст на странице  -->
-        <!-- но нашла вот такое решение: https://stackoverflow.com/questions/34702477/add-a-dark-overlay-to-background-image
-        и сделала затемнение через box-shadow свойство .jumbotron -->
-
-
-        <h1>О<em>но</em> <span>те<em>бе</em><span><em>н</em>ад<i>о</i></span></span></h1>
-        <!-- можно было не использовать <em> и <i>, но мне понравилось, как выглядит h1 без классов, с одними тегами.
-        Благодаря использованию альтернативных тэгов получилось вообще не объявлять классы, красиво же ).
-         Да и <em>, как написано в справке, это акцент, мне показалось, что по смыслу подходит в данном случае.
-         Задание дьявольское, на него ушло несколько дней. Рецепт нашелся от 2011 года, https://www.sitepoint.com/community/t/h1-over-three-lines/75637
-        когда я от отчаяния искала уже все подряд.  Если задача была заставить нуба рыдать, то автор может гордиться.
-        А я когда-нибудь вырасту, обзаведусь катаной, и приду к нему домой ночью -->
-
-        <p>Аукцион<span class="whitespace-9"> </span>вещей,<span class="whitespace-8"> </span><span
-                class="accent-v">в</span><span
-                class="whitespace-8"></span>которые<span class="whitespace-8"> </span>никто<span
-                class="whitespace-9"> </span>не<span class="whitespace-8"> </span>верил
+        <h1>О<em>но</em> <span>те<em>бе</em> <span><em>н</em>ад<i>о</i></span></span></h1>
+        <p><span>Аукцион вещей,</span> <em>в</em> которые <span>никто не</span> верил
             <button type="button">сделать ставку</button>
         </p>
     </section>
     <section id="lots">
-        <h2 class="lots_heading">лоты</h2>
+        <h2>лоты</h2>
         <div class="lot_container">
             <article class="lot_card card_director">
                 <h3>Фильм режиссёра, который бросил киношколу</h3>
@@ -74,51 +58,52 @@
                 </p>
             </article>
         </div>
-        <aside class="more_info"><a href="javascript:void(0)" title="Посмотреть больше">посмотреть больше</a></aside>
+        <aside class="more_info"><a href="javascript:void(0);" title="Посмотреть больше">посмотреть больше</a></aside>
     </section>
     <section id="auction">
-        <div class="column column_logo">
+        <div class="column_logo">
             <div class="circle">
-                <a href="javascript:void(0)"><img src="./images/logo-white.svg" class="logo_auction"
-                                                  alt="Логотип с надписью Оно тебе надо"/></a>
+                <a href="index.html" title="Видим логотип с надписью Оно тебе надо">
+                    <img src="./images/logo-white.svg" alt="Видим логотип с надписью Оно тебе надо"/>
+                </a>
             </div>
         </div>
-        <div class="column column_text">
-            <h4 class="auction_heading">об аукционе</h4>
-            <p class="p_auction">Здесь вы не встретите очередное пафосное <span class="spacing_none">собрание невероятно дорогого антиквариата.</span><span
-                    class="spacing_two_percent"> Наши</span> лоты вообще не должны <span class="spacing_negative">были попасть</span><span
-                    class="spacing_one_percent"> ни на один аукцион.</span><span class="spacing_none"> Потому что кому нужен </span><span
-                    class="spacing_three_percent">дневник</span><span class="spacing_none"> девочки</span>-подростка или<span
-                    class="spacing_none"> картина, которую может </span> <span
-                    class="spacing_two_percent">нарисовать</span> даже <span class="spacing_none">ребёнок?</span> Кому
-                нужны все эти странные вещи, созданные <span class="spacing_none">любителями?</span></p>
-            <p class="p_auction"><span class="spacing_none">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</span>
-            </p>
+        <div class="column_text">
+            <h3>об аукционе</h3>
+            <p>Здесь вы не встретите очередное пафосное <span class="spacing-none">собрание невероятно дорогого антиквариата.</span><span
+                    class="spacing-two-percent"> Наши</span> лоты вообще не должны <span class="spacing-negative">были попасть</span><span
+                    class="spacing-one-percent"> ни на один аукцион.</span><span class="spacing-none"> Потому что кому нужен </span><span
+                    class="spacing-three-percent">дневник</span><span class="spacing-none"> девочки</span>-подростка или<span
+                    class="spacing-none"> картина, которую может </span> <span
+                    class="spacing-two-percent">нарисовать</span> даже <span class="spacing-none">ребёнок?</span> Кому
+                нужны все эти странные вещи, созданные <span class="spacing-none">любителями?</span></p>
+            <p><span class="spacing-none">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то <span
+                    class="spacing-four-percent">они</span> казались просто <span
+                    class="spacing-two-percent">неудачными</span>. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно<span
+                    class="spacing-one-percent"> представить современную культуру</span>. Когда в эти вещи не верил никто, продолжали верить их <span
+                    class="spacing-two-percent">создатели.</span> И сейчас эти лоты стали культовыми.</span></p>
         </div>
     </section>
 </main>
 <footer>
-    <div class="column-footer address-footer">
-        <address>
-            <a href="tel:+99995555555" class="contact_footer_underline" title="Нажмите, чтобы позвонить"><span
-                    class="spacing_one_percent">+9 999 555 5555<br></span></a>
-            <a href="mailto:mail@example.com" class="contact_footer_underline" title="Нажмите, чтобы написать"><span
-                    class="sapcing_one_percent">info@sobaka.ge<br></span></a>
-            <span class="address-footer">наб. Принсенграхт 263-<br> 265, Амстердам</span></address>
-    </div>
-    <div class="column-footer nav-footer">
-        <nav class="nav_footer">
-            <ul>
-                <li><a href="./index.html" class="no-underline">главная</a></li>
-                <li><a href="#lots">посмотреть лоты</a></li>
-                <li><a href="#auction">об аукционе</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="column-footer icons-footer">
-        <img src="./images/yt.svg" alt="Логотип YouTube" class="footer-icon">
-        <img src="./images/vk.svg" alt="Логотип Вконтакте" class="footer-icon">
-        <img src="./images/pinterest.svg" alt="Логотип Pinterest" class="footer-icon">
+    <address>
+        <ul>
+            <li><a href="tel:+99995555555" title="Нажмите, чтобы позвонить">+9 999 555 5555</a></li>
+            <li><a href="mailto:mail@example.com" title="Нажмите, чтобы написать">info@sobaka.ge</a></li>
+            <li><span>наб. Принсенграхт 263-<br> 265, Амстердам</span></li>
+        </ul>
+    </address>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="no-underline">главная</a></li>
+            <li><a href="#lots">посмотреть лоты</a></li>
+            <li><a href="#auction">об аукционе</a></li>
+        </ul>
+    </nav>
+    <div class="icons-footer">
+        <img src="./images/yt.svg" alt="Логотип YouTube">
+        <img src="./images/vk.svg" alt="Логотип Вконтакте">
+        <img src="./images/pinterest.svg" alt="Логотип Pinterest">
     </div>
 </footer>
 </body>
