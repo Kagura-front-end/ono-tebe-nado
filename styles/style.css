@@ -10,7 +10,9 @@ header {
     display: flex;
     flex-wrap: nowrap;
     font-size: 18px;
+    font-weight: 400;
 }
+
 
 header nav {
     padding-top: 44px;
@@ -30,56 +32,36 @@ header nav ul {
 
 .li-circle {
     list-style-type: circle;
-    letter-spacing: 0.01em;
 }
 
 .li-circle a {
     text-decoration: none;
-    border-bottom: black 1px solid ;
+    border-bottom: black 1px solid;
 }
 
-.logo-container {
-    display: flex;
-    width: 20%;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    height: 100%;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+.spacing-0 {
+    letter-spacing: 0;
 }
 
-.header_logo {
-    display: flex;
+.spacing-1 {
+    letter-spacing: 0.01em;
+}
+
+header .logo {
+    padding-left: 38px;
+}
+
+header img {
     width: 148px;
     height: 105px;
 }
 
-.header_nav {
-    display: flex;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    width: 40%;
-    box-sizing: border-box;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    padding-left: 25px;
+header address {
+    width: 240px;
 }
 
-.header_nav a.no-underline {
-    text-decoration: none;
+header address ul {
     list-style-type: none;
-}
-
-.header_nav ul {
-    display: flex;
-    gap: 35px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: end;
 }
 
 
