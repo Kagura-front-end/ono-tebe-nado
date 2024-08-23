@@ -170,7 +170,6 @@ h1 i {
     width: 1052px;
     margin: 0 auto;
     padding-top: 179px;
-    padding-bottom: 115px;
     color: white;
 }
 
@@ -180,7 +179,7 @@ h1 i {
     line-height: 47px;
     padding-left: 40px;
     color: black;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
 }
 
 #lots ul {
@@ -216,7 +215,7 @@ h1 i {
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     text-decoration: underline;
     text-align: left;
     align-self: center;
@@ -225,7 +224,7 @@ h1 i {
 
 #lots ul li article p {
     position: relative;
-    padding-bottom: 44px;
+    padding-bottom: 46px;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -233,12 +232,6 @@ h1 i {
     width: 254px;
     text-overflow: ellipsis;
     overflow: hidden;
-}
-
-article p .em_dash {
-    font-size: 15px;
-    letter-spacing: 0.1em;
-    line-height: 25px;
 }
 
 .three_dots {
@@ -274,6 +267,7 @@ aside a {
 }
 
 #auction {
+    padding-top: 119px;
     width: 1052px;
     margin: 0 auto;
     display: flex;
@@ -281,7 +275,8 @@ aside a {
 
 .column_logo {
     width: 34%;
-    border-color: black;
+    padding-top: 34px;
+    padding-left: 47px;
 }
 
 .circle {
@@ -290,14 +285,12 @@ aside a {
     width: 240px;
     height: 240px;
     padding-left: 47px;
-    margin-top: 35px;
+    padding-top: 65px;
 }
 
 .circle img {
     height: 114px;
-    width: 146px;
-    padding-left: 47px;
-    margin-top: 65px;
+    width: 148px;
 }
 
 .column_text {
@@ -305,20 +298,12 @@ aside a {
 }
 
 #auction h2 {
-    text-transform: uppercase;
-    text-align: left;
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
-    padding-top: 135px;
-    padding-bottom: 100px;
+    padding: 135px 0 100px 2px;
 }
 
-/*
-.spacing_negative_2 {
-    letter-spacing: 0.8em;
-}
-*/
 
 .spacing-negative {
     letter-spacing: -0.01em;
@@ -353,7 +338,56 @@ aside a {
 }
 
 #auction p + p {
-    margin-top: 24px;
+    padding-top: 24px;
+}
+
+
+#auction .introduction {
+    padding-left: 1px;
+    letter-spacing: 0.01em;
+}
+#auction .introduction>span:nth-child(1) {
+    letter-spacing: 0;
+}
+
+#auction .introduction>span:nth-child(1)::after {
+    letter-spacing: 0.01em;
+}
+
+#auction .introduction>span:nth-child(2) {
+    letter-spacing: 0.02em;
+}
+#auction .introduction>span:nth-child(2)::after {
+    letter-spacing: 0.01em;
+}
+
+#auction .introduction>span:nth-child(3) {
+    letter-spacing: -0.01em;
+}
+
+#auction .introduction>span:nth-child(3)::after {
+    letter-spacing: 0.01em;
+}
+
+#auction .introduction>span:nth-child(4) {
+    letter-spacing: 0.03em;
+}
+
+#auction .introduction>span:nth-child(4)::after {
+    letter-spacing: 0.01em;
+}
+
+#auction .conclusion {
+    padding-left: 1px;
+    letter-spacing: 0;
+}
+
+#auction .conclusion>span:nth-child(1) {
+    letter-spacing: 0.04em;
+}
+
+#auction .conclusion>span:nth-child(2) {
+    letter-spacing: 0.01em;
 }
 
 footer {

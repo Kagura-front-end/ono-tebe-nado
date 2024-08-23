@@ -29,3 +29,10 @@ em,
 i {
   font-style: normal;
 }
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
