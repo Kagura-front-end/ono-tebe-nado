@@ -179,7 +179,7 @@ h1 i {
     line-height: 47px;
     padding-left: 40px;
     color: black;
-/*    text-transform: uppercase;*/
+    /*    text-transform: uppercase;*/
 }
 
 #lots ul {
@@ -215,7 +215,7 @@ h1 i {
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
-/*    text-transform: uppercase;*/
+    /*    text-transform: uppercase;*/
     text-decoration: underline;
     text-align: left;
     align-self: center;
@@ -250,7 +250,7 @@ h1 i {
     background-image: url('../images/card-lot-03.jpg');
 }
 
-aside {
+#lots aside {
     padding-top: 30px;
     padding-left: 40px;
     padding-bottom: 30px;
@@ -261,7 +261,7 @@ aside {
     color: black;
 }
 
-aside a {
+#lots aside a {
     text-decoration: none;
     border-bottom: black 1px solid;
 }
@@ -304,8 +304,7 @@ aside a {
     padding: 135px 0 100px 2px;
 }
 
-
-.spacing-negative {
+/*.spacing-negative {
     letter-spacing: -0.01em;
 }
 
@@ -327,7 +326,7 @@ aside a {
 
 .spacing-four-percent {
     letter-spacing: 0.04em;
-}
+}*/
 
 #auction p {
     font-size: 20px;
@@ -336,59 +335,38 @@ aside a {
     text-align: left;
 }
 
-/*
-#auction p + p {
-    padding-top: 24px;
-}
-*/
-
-
 #auction .introduction {
     padding-left: 1px;
     letter-spacing: 0.01em;
     padding-bottom: 24px;
 }
-#auction .introduction>span:nth-child(1) {
+
+#auction .introduction > span:nth-child(1) {
     letter-spacing: 0;
 }
 
-/*#auction .introduction>span:nth-child(1)::after {
-    letter-spacing: 0.01em;
-}*/
-
-#auction .introduction>span:nth-child(2) {
+#auction .introduction > span:nth-child(2) {
     letter-spacing: 0.02em;
 }
-/*#auction .introduction>span:nth-child(2)::after {
-    letter-spacing: 0.01em;
-}*/
 
-#auction .introduction>span:nth-child(3) {
+#auction .introduction > span:nth-child(3) {
     letter-spacing: -0.01em !important;
 }
 
-/*#auction .introduction>span:nth-child(3)::after {
-    letter-spacing: 0.01em;
-}*/
-
-#auction .introduction>span:nth-child(4) {
+#auction .introduction > span:nth-child(4) {
     letter-spacing: 0.03em;
 }
-
-/*#auction .introduction>span:nth-child(4)::after {
-    letter-spacing: 0.01em;
-}*/
 
 #auction .conclusion {
     padding-left: 1px;
     letter-spacing: 0;
 }
 
-#auction .conclusion>span:nth-child(1) {
+#auction .conclusion > span:nth-child(1) {
     letter-spacing: 0.04em;
 }
 
-#auction .conclusion>span:nth-child(2) {
+#auction .conclusion > span:nth-child(2) {
     letter-spacing: 0.01em;
 }
 
@@ -397,12 +375,11 @@ footer {
     width: 1000px;
     margin: 0 auto;
     padding-top: 182px;
-/*    padding-bottom: 88px;*/
 }
 
 footer address,
 footer nav,
-footer>ul {
+footer aside {
     flex: 1;
     justify-items: center;
     align-items: start;
@@ -420,40 +397,40 @@ footer ul li a {
     border-bottom: 1px solid black;
 }
 
-footer address li {
+footer address {
     line-height: 24px;
 }
 
 footer address li a {
     letter-spacing: 0.01em;
-/*    text-decoration: none;
-    border-bottom: 1px solid black;*/
 }
 
 footer nav {
     line-height: 21px;
     text-align: center;
-/*    padding-right: 90px;*/
 }
 
-/*footer nav a {
-    text-decoration: none;
-    border-bottom: 1px solid black;
-}*/
-
-/*footer address {
-    text-align: left;
-}*/
-
-
-
-.footer-icons {
+footer aside {
     display: flex;
     justify-content: flex-end;
+    width: 240px;
+}
+
+footer aside ul {
+    display: flex;
     gap: 48px;
 }
 
-.footer-icons img {
+footer aside img {
     width: 48px;
     height: 48px;
+}
+
+footer aside img:hover {
+    opacity: 0.5;
+}
+
+footer aside ul li a {
+    text-decoration: none;
+    border: 0;
 }
