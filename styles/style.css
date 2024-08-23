@@ -171,98 +171,106 @@ h1 i {
     margin: 0 auto;
     padding-top: 179px;
     padding-bottom: 115px;
+    color: white;
 }
 
 #lots h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
-    text-align: left;
-    margin-left: 40px;
-    margin-bottom: 27px;
+    padding-left: 40px;
+    color: black;
     text-transform: uppercase;
 }
 
-.lot_container {
+#lots ul {
     display: flex;
-    justify-content: space-between;
     width: 100%;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 26px;
 }
 
-.lot_card {
+#lots ul li {
+    min-width: 334px;
+}
+
+#lots ul li a {
+    text-decoration: none;
+}
+
+#lots ul li article {
     display: flex;
     flex-direction: column;
-    position: relative;
-    width: 31.6%;
-    padding: 20px;
     min-height: 563px;
-    background-color: #fff;
-    box-sizing: border-box;
+    background-size: 334px 563px;
+    background-position: center;
     overflow: hidden;
-    color: white;
     justify-content: space-between;
     align-items: center;
 }
 
-.lot_card h3 {
-    position: relative;
-    margin-top: 32px;
+#lots ul li article h3 {
+    width: 254px;
+    padding-top: 52px;
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
-    width: 254px;
-    color: #fff;
     text-transform: uppercase;
-    text-align: left;
     text-decoration: underline;
+    text-align: left;
     align-self: center;
+    text-overflow: ellipsis;
 }
 
-
-.lot_card p {
+#lots ul li article p {
     position: relative;
-    margin-bottom: 30px;
+    padding-bottom: 44px;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
     width: 254px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
-.em_dash {
+article p .em_dash {
     font-size: 15px;
     letter-spacing: 0.1em;
+    line-height: 25px;
 }
 
 .three_dots {
     letter-spacing: 0.1em;
 }
 
-.card_director, .card_agent, .card_painting {
-    background-size: 334px 563px;
-    background-position: center;
-}
-
-.card_director {
+.art_director {
     background-image: url('../images/card-lot-01.jpg');
 }
 
-.card_agent {
+.art_agent {
     background-image: url('../images/card-lot-02.jpg');
 }
 
-.card_painting {
+.art_painting {
     background-image: url('../images/card-lot-03.jpg');
 }
 
-.more_info {
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-bottom: 30px;
+aside {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    color: black;
+}
+
+aside a {
+    text-decoration: none;
+    border-bottom: black 1px solid;
 }
 
 #auction {
@@ -281,14 +289,14 @@ h1 i {
     border-radius: 50%;
     width: 240px;
     height: 240px;
-    margin-left: 47px;
+    padding-left: 47px;
     margin-top: 35px;
 }
 
 .circle img {
     height: 114px;
     width: 146px;
-    margin-left: 47px;
+    padding-left: 47px;
     margin-top: 65px;
 }
 
@@ -296,7 +304,7 @@ h1 i {
     width: 66%;
 }
 
-#auction h3 {
+#auction h2 {
     text-transform: uppercase;
     text-align: left;
     font-size: 40px;
