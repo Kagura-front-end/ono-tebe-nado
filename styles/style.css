@@ -304,29 +304,6 @@ h1 i {
     padding: 135px 0 100px 2px;
 }
 
-/*.spacing-negative {
-    letter-spacing: -0.01em;
-}
-
-.spacing-none {
-    letter-spacing: 0;
-}
-
-.spacing-one-percent {
-    letter-spacing: 0.01em;
-}
-
-.spacing-two-percent {
-    letter-spacing: 0.02em;
-}
-
-.spacing-three-percent {
-    letter-spacing: 0.03em;
-}
-
-.spacing-four-percent {
-    letter-spacing: 0.04em;
-}*/
 
 #auction p {
     font-size: 20px;
@@ -379,7 +356,7 @@ footer {
 
 footer address,
 footer nav,
-footer aside {
+footer .socials {
     flex: 1;
     justify-items: center;
     align-items: start;
@@ -410,27 +387,27 @@ footer nav {
     text-align: center;
 }
 
-footer aside {
+footer .socials {
     display: flex;
     justify-content: flex-end;
     width: 240px;
 }
 
-footer aside ul {
+footer .socials {
     display: flex;
     gap: 48px;
 }
 
-footer aside img {
+footer .socials img {
     width: 48px;
     height: 48px;
 }
 
-footer aside img:hover {
+footer .socials img:hover {
     opacity: 0.5;
 }
 
-footer aside ul li a {
+footer .socials li a {
     text-decoration: none;
     border: 0;
 }
