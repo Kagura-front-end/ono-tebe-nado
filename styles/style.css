@@ -40,14 +40,6 @@ header nav ul li a {
     list-style: none;
 }
 
-/*.spacing_none {
-    letter-spacing: 0;
-}*/
-
-.spacing-1 {
-    letter-spacing: 0.01em;
-}
-
 header .logo {
     padding-left: 36px;
 }
@@ -85,18 +77,17 @@ main {
 .jumbotron {
     min-height: 757px;
     width: 100%;
-    background-position: center;
-    background-size: 1100px 757px;
-    background-image: url('../images/cover.jpg');
-    color: #ffffff;
     text-transform: uppercase;
+    background-image: url('../images/cover.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
 }
 
 h1 {
     margin: auto;
     width: 1000px;
     padding-top: 165px;
-    min-height: 355px;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
@@ -145,6 +136,7 @@ h1 i {
 }
 
 .jumbotron button {
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     width: 256px;
     height: 51px;
@@ -166,39 +158,46 @@ h1 i {
     color: black;
 }
 
-#lots {
+.lots {
     width: 1052px;
     margin: 0 auto;
     padding-top: 179px;
     color: white;
 }
 
-#lots h2 {
+h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
-    padding-left: 40px;
     color: black;
-    /*    text-transform: uppercase;*/
 }
 
-#lots ul {
+.lots h2 {
+    padding-left: 40px;
+}
+
+.lots ul {
     display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
     width: 100%;
     justify-content: space-between;
     list-style-type: none;
     padding-top: 26px;
 }
 
-#lots ul li {
+.lots ul li {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30%;
     min-width: 334px;
 }
 
-#lots ul li a {
+.lots ul li a {
     text-decoration: none;
 }
 
-#lots ul li article {
+.lots ul li article {
     display: flex;
     flex-direction: column;
     min-height: 563px;
@@ -209,7 +208,7 @@ h1 i {
     align-items: center;
 }
 
-#lots ul li article h3 {
+.lots ul li article h3 {
     width: 254px;
     padding-top: 52px;
     font-size: 22px;
@@ -222,7 +221,7 @@ h1 i {
     text-overflow: ellipsis;
 }
 
-#lots ul li article p {
+.lots ul li article p {
     position: relative;
     padding-bottom: 46px;
     font-size: 20px;
@@ -238,19 +237,26 @@ h1 i {
     letter-spacing: 0.1em;
 }
 
-.art_director {
-    background-image: url('../images/card-lot-01.jpg');
+.lots .art_director {
+    background-image: url(../images/card-lot-01.jpg);
 }
 
-.art_agent {
+.lots .art_agent {
     background-image: url('../images/card-lot-02.jpg');
 }
 
-.art_painting {
+.lots .art_painting {
     background-image: url('../images/card-lot-03.jpg');
 }
 
-#lots aside {
+.lots .art_director,
+.lots .art_agent,
+.lots .art_painting {
+    background-size: cover;
+    background-position: center;
+}
+
+.lots .more-info {
     padding-top: 30px;
     padding-left: 40px;
     padding-bottom: 30px;
@@ -259,14 +265,10 @@ h1 i {
     line-height: 24px;
     text-align: left;
     color: black;
+    text-underline-offset: 3px;
 }
 
-#lots aside a {
-    text-decoration: none;
-    border-bottom: black 1px solid;
-}
-
-#auction {
+.auction {
     padding-top: 119px;
     width: 1052px;
     margin: 0 auto;
@@ -297,54 +299,44 @@ h1 i {
     width: 66%;
 }
 
-#auction h2 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 47px;
+.auction h2 {
     padding: 135px 0 100px 2px;
 }
 
 
-#auction p {
+.auction p {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 }
 
-#auction .introduction {
-    padding-left: 1px;
-    letter-spacing: 0.01em;
-    padding-bottom: 24px;
+.spacing-negative {
+    letter-spacing: -0.01em;
 }
 
-#auction .introduction > span:nth-child(1) {
+.spacing-none {
     letter-spacing: 0;
 }
 
-#auction .introduction > span:nth-child(2) {
+.spacing-narrow {
+    letter-spacing: 0.01em;
+}
+
+.spacing-medium {
     letter-spacing: 0.02em;
 }
 
-#auction .introduction > span:nth-child(3) {
-    letter-spacing: -0.01em !important;
-}
-
-#auction .introduction > span:nth-child(4) {
+.spacing-wide {
     letter-spacing: 0.03em;
 }
 
-#auction .conclusion {
-    padding-left: 1px;
-    letter-spacing: 0;
-}
-
-#auction .conclusion > span:nth-child(1) {
+.spacing-very-wide {
     letter-spacing: 0.04em;
 }
 
-#auction .conclusion > span:nth-child(2) {
-    letter-spacing: 0.01em;
+.auction p + p {
+    margin-top: 24px;
 }
 
 footer {
