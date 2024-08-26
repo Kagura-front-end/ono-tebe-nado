@@ -147,11 +147,11 @@ h1 {
     line-height: 48px;
 }
 
-.space-first {
+.spacing-overload {
     letter-spacing: 0.9em;
 }
 
-.space-second {
+.spacing-huge {
     letter-spacing: 0.8em;
 }
 
@@ -332,9 +332,9 @@ h2 {
     text-align: left;
 }
 
-.spacing-negative {
+/*.spacing-negative {
     letter-spacing: -0.01em;
-}
+}*/
 
 .spacing-none {
     letter-spacing: 0 !important;
