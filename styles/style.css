@@ -147,11 +147,11 @@ h1 {
     line-height: 48px;
 }
 
-.space-first {
+.spacing-overload {
     letter-spacing: 0.9em;
 }
 
-.space-second {
+.spacing-huge {
     letter-spacing: 0.8em;
 }
 
