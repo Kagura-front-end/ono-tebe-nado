@@ -384,6 +384,10 @@ footer nav {
     text-align: center;
 }
 
+footer nav ul {
+    list-style-type: none;
+}
+
 footer nav a {
 text-underline-offset: 3px;
 }
