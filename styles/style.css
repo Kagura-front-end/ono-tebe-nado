@@ -49,6 +49,10 @@ header .logo {
     padding-left: 36px;
 }
 
+header .logo:hover {
+    opacity: 0.5;
+}
+
 header img {
     width: 148px;
     height: 105px;
@@ -97,7 +101,7 @@ h1 {
     padding-top: 165px;
     font-size: 100px;
     font-weight: 700;
-    line-height: 120px;
+    line-height: 115px;
     letter-spacing: 0.3em;
     text-align: left;
 }
@@ -109,6 +113,7 @@ h1 {
 .text-center {
     text-align: center;
     line-height: 1.3em;
+    padding-top: 5px;
 }
 
 .text-right {
@@ -116,20 +121,42 @@ h1 {
     line-height: 1.1em;
 }
 
+.jumbotron-content {
+    padding-top: 131px;
+    padding-left: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-caption {
+    flex: 0 0 70%;
+}
+
+.column-key {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
 .jumbotron p {
     display: block;
-    word-spacing: 0.8em;
     font-weight: 400;
     font-size: 22px;
     line-height: 48px;
 }
 
-.jumbotron p span {
-    word-spacing: 0.9em;
+.space-first {
+    letter-spacing: 0.9em;
 }
 
-.jumbotron p em {
-    letter-spacing: 0.1em;
+.space-second {
+    letter-spacing: 0.8em;
+}
+
+.space-third {
+    word-spacing: 0.8em;
 }
 
 .jumbotron button {
@@ -149,25 +176,6 @@ h1 {
 .jumbotron button:hover {
     background-color: white;
     color: black;
-}
-
-.jumbotron-content {
-    margin-top: 130px;
-    padding-left: 78px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.column.caption {
-    flex: 0 0 70%;
-}
-
-.column.key {
-    flex: 0 0 30%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
 }
 
 .lots {
@@ -228,7 +236,7 @@ h2 {
     font-weight: 700;
     line-height: 26px;
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 1px;
     text-align: left;
     align-self: center;
     text-overflow: ellipsis;
@@ -251,7 +259,7 @@ h2 {
 }
 
 .lots .art-director {
-    background-image: url(../images/card-lot-01.jpg);
+    background-image: url('../images/card-lot-01.jpg');
 }
 
 .lots .art-agent {
@@ -279,11 +287,11 @@ h2 {
     line-height: 24px;
     text-align: left;
     color: black;
-    text-underline-offset: 5px;
+    text-underline-offset: 4px;
 }
 
 .auction {
-    padding-top: 119px;
+    padding-top: 117px;
     width: 1052px;
     margin: 0 auto;
     display: flex;
@@ -348,9 +356,14 @@ h2 {
     letter-spacing: 0.04em;
 }
 
-.widest-spacing {
+.spacing-extra {
+    letter-spacing: 0.11em;
+}
+
+.spacing-widest {
     letter-spacing: 0.6em;
 }
+
 
 .auction p + p {
     margin-top: 24px;
@@ -372,13 +385,6 @@ footer .socials {
     align-items: start;
 }
 
-footer .contacts li a {
-text-underline-offset: 3px;
-
-}
-
-
-
 footer nav {
     line-height: 21px;
     text-align: center;
@@ -389,7 +395,7 @@ footer nav ul {
 }
 
 footer nav a {
-text-underline-offset: 3px;
+    text-underline-offset: 5px;
 }
 
 footer .socials {
