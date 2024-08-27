@@ -64,7 +64,7 @@ header .contacts {
     padding-top: 6px;
 }
 
-.contacts {
+.contacts ul {
     list-style-type: none;
     line-height: 24px;
 }
@@ -72,11 +72,6 @@ header .contacts {
 .contacts li {
     letter-spacing: 0.01em;
 }
-
-/*
-.contacts li a {
-    text-underline-offset: 4px;
-}*/
 
 main {
     padding-top: 92px;
@@ -364,49 +359,46 @@ footer {
     font-size: 18px;
 }
 
-footer address,
-footer nav,
+footer .contacts,
+footer .footer-links,
 footer .socials {
     flex: 1;
     justify-items: center;
     align-items: start;
 }
 
-footer nav {
+.footer-links {
     line-height: 21px;
     text-align: center;
 }
 
-footer nav ul {
+.footer-links ul {
     list-style-type: none;
 }
 
-footer nav a {
-    text-underline-offset: 5px;
-}
+/*.footer-links a {
+    text-underline-offset: 4px;
+}*/
 
-footer .socials {
+.socials {
     display: flex;
     justify-content: flex-end;
     width: 240px;
-}
-
-footer .socials {
-    display: flex;
     list-style-type: none;
     gap: 48px;
 }
 
-footer .socials img {
+.socials img {
     width: 48px;
     height: 48px;
 }
 
-footer .socials img:hover {
+.socials img:hover {
     opacity: 0.5;
 }
 
-footer .socials li a {
+/*
+.socials li a {
     text-decoration: none;
     border: 0;
-}
+}*/
