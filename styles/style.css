@@ -250,15 +250,15 @@ h2 {
     letter-spacing: 0.1em;
 }
 
-.lots .art-director {
+.art-director {
     background-image: url('../images/card-lot-01.jpg');
 }
 
-.lots .art-agent {
+.art-agent {
     background-image: url('../images/card-lot-02.jpg');
 }
 
-.lots .art-painting {
+.art-painting {
     background-image: url('../images/card-lot-03.jpg');
 }
 
@@ -354,14 +354,12 @@ footer {
     display: flex;
     width: 1000px;
     padding-top: 180px;
-    padding-bottom: 90px;
+    padding-bottom: 88px;
     margin: 0 auto;
     font-size: 18px;
 }
 
-footer .contacts,
-footer .footer-links,
-footer .socials {
+.footer-column {
     flex: 1;
     justify-items: center;
     align-items: start;
