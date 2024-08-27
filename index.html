@@ -12,10 +12,10 @@
 <body>
 <header>
     <nav>
-        <ul>
-            <li class="main-link"><a href="index.html" class="no-underline" title="Главная">главная</a></li>
-            <li><a href="#lots" class="spacing-narrow" title="Посмотреть лоты">посмотреть лоты</a></li>
-            <li><a href="#auction" class="spacing-narrow" title="Об аукционе">об аукционе</a></li>
+        <ul class="header-links">
+            <li class="main-link"><a href="index.html" title="Главная">главная</a></li>
+            <li><a href="#lots" class="spacing-narrow underline" title="Посмотреть лоты">посмотреть лоты</a></li>
+            <li><a href="#auction" class="spacing-narrow underline" title="Об аукционе">об аукционе</a></li>
         </ul>
     </nav>
     <a href="index.html" class="logo" title="Нажмите, чтобы вернуться на главную">
@@ -23,14 +23,14 @@
     </a>
     <address>
         <ul class="contacts">
-            <li><a href="tel:+99995555555" title="Позвонить">+9 999 555 5555</a></li>
-            <li><a href="mailto:info@sobaka.ge" title="Написать">info@sobaka.ge</a></li>
+            <li><a href="tel:+99995555555" title="Позвонить" class="underline">+9 999 555 5555</a></li>
+            <li><a href="mailto:info@sobaka.ge" title="Написать" class="underline">info@sobaka.ge</a></li>
             <li class="spacing-none">наб. Принсенграхт 263-<br/>265, Амстердам</li>
         </ul>
     </address>
 </header>
 <main>
-    <section class="jumbotron">
+    <section class="jumbotron shadow">
         <h1>
             <span class="accent-span">О<span class="spacing-widest">но</span></span>
             <span class="accent-span text-center">те<span class="spacing-widest">бе</span></span>
@@ -52,9 +52,9 @@
     <section id="lots" class="lots">
         <h2>лоты</h2>
         <ul>
-            <li>
+            <li class="lot-item">
                 <a href="javascript:void(0);" title="Фильм Пола Томаса Андерсона">
-                    <article class="lot-card art-director">
+                    <article class="lot-card art-director shadow">
                         <h3>Фильм режиссёра, который бросил киношколу</h3>
                         <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что
                             режиссёр — Пол Томас Андерсон?</p>
@@ -63,7 +63,7 @@
             </li>
             <li class="lot-item">
                 <a href="javascript:void(0);" title="Книга Джеймса Джойса">
-                    <article class="lot-card art-agent">
+                    <article class="lot-card art-agent shadow">
                         <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
                         <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
                             древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории
@@ -74,7 +74,7 @@
             </li>
             <li class="lot-item">
                 <a href="javascript:void(0);" title="Картина Кандинского">
-                    <article class="lot-card art-painting">
+                    <article class="lot-card art-painting shadow">
                         <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                         <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
                             инфузорию-туфельку. Никаких полей, лесов, котиков<span class="three-dots">... </span>Сколько
@@ -84,7 +84,7 @@
                 </a>
             </li>
         </ul>
-        <a href="javascript:void(0);" title="Посмотреть больше" class="more-info">посмотреть больше</a>
+        <a href="javascript:void(0);" title="Посмотреть больше" class="more-info underline">посмотреть больше</a>
     </section>
     <section id="auction" class="auction">
         <div class="column-logo">

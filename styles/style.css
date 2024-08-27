@@ -18,7 +18,7 @@ header nav {
     padding-left: 25px;
 }
 
-header nav ul {
+.header-links {
     display: flex;
     padding-left: 25px;
     gap: 32px;
@@ -26,23 +26,24 @@ header nav ul {
     list-style-type: circle;
 }
 
-header nav ul li a {
+.underline {
     text-underline-offset: 4px;
 }
 
-header nav ul li a:hover {
+.header-links a:hover {
     background-color: dimgrey;
     padding: 5px 0;
     border-radius: 8px;
     color: white;
 }
 
-.no-underline {
+.main-link {
+    list-style: none;
     text-decoration: none;
 }
 
-.main-link {
-    list-style: none;
+.main-link a {
+    text-decoration: none;
 }
 
 header .logo {
@@ -72,16 +73,16 @@ header .contacts {
     letter-spacing: 0.01em;
 }
 
+/*
 .contacts li a {
     text-underline-offset: 4px;
-}
+}*/
 
 main {
     padding-top: 92px;
 }
 
-.jumbotron,
-.lot-card {
+.shadow {
     box-shadow: 0 1px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
 }
 
@@ -207,29 +208,28 @@ h2 {
     padding-top: 27px;
 }
 
-.lots ul li {
+.lot-item {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 30%;
     min-width: 334px;
 }
 
-.lots ul li a {
+.lot-item a {
     text-decoration: none;
 }
 
-.lots ul li article {
+.lot-card {
     display: flex;
     flex-direction: column;
     min-height: 563px;
-    background-size: 334px 563px;
+    background-size: cover;
     background-position: center;
-    overflow: hidden;
     justify-content: space-between;
     align-items: center;
 }
 
-.lots ul li article h3 {
+.lot-card h3 {
     width: 254px;
     padding-top: 52px;
     font-size: 22px;
@@ -239,10 +239,9 @@ h2 {
     text-underline-offset: 1px;
     text-align: left;
     align-self: center;
-    text-overflow: ellipsis;
 }
 
-.lots ul li article p {
+.lot-card p {
     position: relative;
     padding-bottom: 48px;
     font-size: 20px;
@@ -250,8 +249,6 @@ h2 {
     line-height: 24px;
     text-align: left;
     width: 254px;
-    text-overflow: ellipsis;
-    overflow: hidden;
 }
 
 .three-dots {
@@ -270,16 +267,9 @@ h2 {
     background-image: url('../images/card-lot-03.jpg');
 }
 
-.lots .art-director,
-.lots .art-agent,
-.lots .art-painting {
-    background-size: cover;
-    background-position: center;
-}
-
 .more-info {
     display: block;
-    margin-top: 30px;
+    padding-top: 30px;
     text-indent: 40px;
     padding-bottom: 30px;
     font-size: 20px;
@@ -287,7 +277,6 @@ h2 {
     line-height: 24px;
     text-align: left;
     color: black;
-    text-underline-offset: 4px;
 }
 
 .auction {
@@ -332,12 +321,9 @@ h2 {
     text-align: left;
 }
 
-/*.spacing-negative {
-    letter-spacing: -0.01em;
-}*/
 
 .spacing-none {
-    letter-spacing: 0 !important;
+    letter-spacing: 0;
 }
 
 .spacing-narrow {
@@ -373,6 +359,7 @@ footer {
     display: flex;
     width: 1000px;
     padding-top: 180px;
+    padding-bottom: 90px;
     margin: 0 auto;
     font-size: 18px;
 }
